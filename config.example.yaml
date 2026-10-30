@@ -1,0 +1,25 @@
+search:
+  keywords: "nike tech fleece"
+  max_price: 45
+  order: newest_first
+  country: fr
+
+monitor:
+  poll_interval: 25
+  domain: www.vinted.fr
+  session_file: session.json
+
+notifier:
+  console: true
+  telegram_token: ""
+  telegram_chat_id: ""
+  discord_webhook: ""
+
+rules:
+  - name: tech fleece flip
+    max_buy_price: 40
+    target_resell: 75
+    keywords:
+      - tech fleece
+    brands:
+      - nike
