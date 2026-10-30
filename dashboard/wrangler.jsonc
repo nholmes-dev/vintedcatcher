@@ -5,5 +5,12 @@
   "assets": {
     "directory": "./dist",
     "not_found_handling": "single-page-application"
-  }
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "vintedcatcher",
+      "database_id": "f48b21de-9a93-4104-b8ec-980c02e6cabf"
+    }
+  ]
 }
